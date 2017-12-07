@@ -1,0 +1,73 @@
+<h1>Make a form for new Pirates here</h1>
+<h1>enter the following info for the new pirate:</h1>
+<form action="/pirates" method="POST">
+
+<!-- So if the "for" field in 'label' and the "id" field in input
+are exactly the same, when you click on the former, the latter will
+automatically highlight so you can fill it out.
+In this case both are equal to ""pirate_name"" -->
+
+<!-- NOTICE: you do not need to enter a value for "id" if you aren't running any
+Capybara tests at all or don't want the feature mentioned above -->
+  <label for="pirate_name">Name:</label>
+  <input type="text" id="pirate_name" name="pirate[name]"></input>
+
+<p>
+  <label for="pirate_height">Height:</label>
+  <input type="text" id="pirate_height" name="pirate[height]"></input>
+</p>
+<p>
+  <label for="pirate_weight">Weight:</label>
+  <input type="text" id="pirate_weight" name="pirate[weight]"></input>
+</p>
+
+<!-- So far, in the above code, the parameters being generated all
+look something like this:
+{pirate => {name: "Redbeard", height: "tall", weight: "heavy"}}
+
+...but now that we're adding the ships, we have a hash with an array:
+
+{"pirate" =>
+{"name" => "Morgan",
+ "height" => "tall",
+ "weight" => "fat",
+ "ships" => [{"name" => "HMS Seagull"}]}}-->
+<h3>enter in the new pirate's ship data:</h3>
+<label for="ship_name">Ship No.1 Name:</label>
+<input type="text" name="pirate[ships][][name]"></input>
+
+<label for="ship_name">    Ship No.1 Make:</label>
+<input type="text" name="pirate[ships][][typos]"></input>
+
+<label for="ship_name">    Ship No.1 Booty:</label>
+<input type="text" name="pirate[ships][][booty]"></input>
+<p>
+<label for="ship_name">Ship No.2 Name:</label>
+<input type="text" name="pirate[ships][][name]"></input>
+
+<label for="ship_name">    Ship No.2 Make:</label>
+<input type="text" name="pirate[ships][][typos]"></input>
+
+<label for="ship_name">    Ship No.2 Booty:</label>
+<input type="text" name="pirate[ships][][booty]"></input>
+<p>
+  <input type="submit" value="Click here to add the Pirate">
+</p>
+</form>
+
+<!-- This is a follow-along on this video here:
+# https://www.youtube.com/watch?v=kgHN11dQ3H0
+# ...at 1:28:12 / 1:49:13
+
+# in the console (rake console):
+
+Pirate.new(name: params[:pirate][:name], height: params[:pirate][:height], weight: params[:pirate][:weight])
+bandito = _
+bandito.save
+
+params[:pirate][:ships].each do |ship_data|
+sfina = Ship.new(ship_data)
+
+sfina.pirate = bandito
+
+-->

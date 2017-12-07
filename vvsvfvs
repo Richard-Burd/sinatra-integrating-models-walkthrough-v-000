@@ -1,0 +1,29 @@
+=> [[32m#<Pirate:0x00000002bda810[0m
+  id: [1;34m1[0m,
+  name: [31m[1;31m"[0m[31mRedbeard[1;31m"[0m[31m[0m,
+  height: [31m[1;31m"[0m[31mtall[1;31m"[0m[31m[0m,
+  weight: [31m[1;31m"[0m[31mheavy[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Pirate:0x00000002c39bd0[0m
+  id: [1;34m2[0m,
+  name: [31m[1;31m"[0m[31mBlackbeard[1;31m"[0m[31m[0m,
+  height: [31m[1;31m"[0m[31mnormal[1;31m"[0m[31m[0m,
+  weight: [31m[1;31m"[0m[31mnormal[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Pirate:0x00000002c39a40[0m
+  id: [1;34m3[0m,
+  name: [31m[1;31m"[0m[31mCPT Morgan[1;31m"[0m[31m[0m,
+  height: [31m[1;31m"[0m[31mshort[1;31m"[0m[31m[0m,
+  weight: [31m[1;31m"[0m[31mlight[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Pirate:0x00000002c398b0[0m
+  id: [1;34m4[0m,
+  name: [31m[1;31m"[0m[31mCPT Sparrow[1;31m"[0m[31m[0m,
+  height: [31m[1;31m"[0m[31mshort[1;31m"[0m[31m[0m,
+  weight: [31m[1;31m"[0m[31mlight[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Pirate:0x00000002c39720[0m
+  id: [1;34m5[0m,
+  name: [31m[1;31m"[0m[31mDread[1;31m"[0m[31m[0m,
+  height: [31m[1;31m"[0m[31mtallest[1;31m"[0m[31m[0m,
+  weight: [31m[1;31m"[0m[31mSuperbig[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Pirate:0x00000002c39590[0m id: [1;34m6[0m, name: [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m, height: [31m[1;31m"[0m[31mb[1;31m"[0m[31m[0m, weight: [31m[1;31m"[0m[31mb[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Pirate:0x00000002c39428[0m id: [1;34m7[0m, name: [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m, height: [31m[1;31m"[0m[31mb[1;31m"[0m[31m[0m, weight: [31m[1;31m"[0m[31mb[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Pirate:0x00000002c392c0[0m id: [1;34m8[0m, name: [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m, height: [31m[1;31m"[0m[31mb[1;31m"[0m[31m[0m, weight: [31m[1;31m"[0m[31mb[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Pirate:0x00000002c39158[0m id: [1;34m9[0m, name: [31m[1;31m"[0m[31ma[1;31m"[0m[31m[0m, height: [31m[1;31m"[0m[31mb[1;31m"[0m[31m[0m, weight: [31m[1;31m"[0m[31mb[1;31m"[0m[31m[0m[32m>[0m]

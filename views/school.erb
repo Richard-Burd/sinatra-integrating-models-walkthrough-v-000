@@ -1,0 +1,18 @@
+<form action="/student" method="post">
+  Student Name: <input type="text" name="student[name]">
+  <br><br>
+  <!-- Student Meal Card ID <input type="text" name="student[meal_card][id]">
+  Student Meal Card Type <input type="text" name="student[meal_card][type]"> -->
+  <br><br>
+  Student Grade: <input type="text" name="student[grade]">
+  <br><br>
+  Course-1 Name: <input type="text" name="student[courses][][name]">
+  <br><br>
+  Course-1 Topic: <input type="text" name="student[courses][][topic]">
+  <br><br><br>
+  Course-2 Name: <input type="text" name="student[courses][][name]">
+  <br><br>
+  Course-2 Topic: <input type="text" name="student[courses][][topic]">
+  <br><br>
+  <input type="submit">
+</form>

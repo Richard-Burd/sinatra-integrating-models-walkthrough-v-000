@@ -1,0 +1,18 @@
+<h1>Here's the pirate you just created!</h1>
+<p>
+<%= @pirate.name %>
+<li>Weight: <%= @pirate.weight %></li>
+<li>Height: <%= @pirate.height %></li>
+</p>
+
+<p>
+<h2>Ships owned by <%= @pirate.name %></h2>
+<ul>
+<% @pirate.ships.each_with_index do |vessel, index| %>
+<h3><%= index + 1 %></h3>
+<li>Name: <%= vessel.name %></li>
+<li>Type: <%= vessel.typos %></li>
+<li>Booty: <%= vessel.booty %></li>
+<% end %>
+</ul>
+</p>

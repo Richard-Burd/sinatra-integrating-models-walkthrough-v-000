@@ -1,3 +1,14 @@
+# Burd Notes:
+I added persistance (Active Record, SQL) per this
+video here:
+
+https://learn.co/tracks/full-stack-web-development-v3/sinatra/forms/lab-review-sinatra-nested-forms-lab-pirates
+
+https://www.youtube.com/watch?v=kgHN11dQ3H0
+
+...to this workspace.
+
+
 # Integrating Models Sinatra Code-along
 
 ## Overview
